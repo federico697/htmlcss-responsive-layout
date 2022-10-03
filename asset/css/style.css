@@ -21,6 +21,9 @@
 .width-80{
     width: 80%;
 }
+.width-90{
+    width: 90%;
+}
 .width-100{
     width: 100%;
 }
@@ -29,6 +32,9 @@
 }
 .disp-blo{
     display: block;
+}
+.white{
+    color: white;
 }
 
 /* utili */
@@ -65,6 +71,80 @@ section{
     margin: 20px 0;
 }
 
+.container2-main{
+    background-color: rgb(132, 132, 253);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.img-2{
+    width: 100%;
+}
+
+.card-container2-main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.freccia{
+    background-color: rgb(132, 132, 253);
+    padding: 10px;
+    border-radius: 50%;
+    width: 12%;
+    position: relative;
+    left: 45%;
+}
+
+.card-container3-main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(132, 132, 253);
+    border-radius: 30px;
+}
+
+.cont-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url('../img/testimonial1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+
+}
+.cont-img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url('../img/testimonial2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+
+}
+.cont-img3{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url('../img/testimonial3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 @media screen and (min-width: 480px){
    .container1-main{
     display: flex;
@@ -82,6 +162,9 @@ section{
    header{
     width: 100%;
 }
+.freccia{
+    width: 7%;
+}
 }
 
 @media screen and (min-width: 769px){
@@ -89,6 +172,7 @@ section{
      display: flex;
      width: 85%;
     margin: 0 auto;
+    margin-bottom: 20px;
     }
     .section{
      flex-basis: 30%;
@@ -115,5 +199,23 @@ section{
     .img-1{
         position: relative;
         left: 100px;
+    }
+    .container2-main{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .card-container2-main{
+        width: 80%;
+        position: relative;
+        /* top: 35px; */
+        margin-left: 20px;
+    }
+    .freccia {
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+    .flex-3{
+        display: flex;
     }
  }
