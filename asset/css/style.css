@@ -115,7 +115,7 @@ section{
     background-image: url('../img/testimonial1.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 100%;
     background-position: center;
 
 }
@@ -126,7 +126,7 @@ section{
     background-image: url('../img/testimonial2.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 100%;
     background-position: center;
 
 }
@@ -137,7 +137,7 @@ section{
     background-image: url('../img/testimonial3.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 100%;
     background-position: center;
 
 }
@@ -151,9 +151,12 @@ section{
 .es-4{
     background-color: rgb(132, 132, 253);
 }
-.container-es-4{
+.container-es-4,
+.cont-es-5{
     padding-bottom: 20px;
     padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 .box{
     width: 80%;
@@ -172,6 +175,16 @@ section{
     color: white;
     background-color: rgb(132, 132, 253);
 
+}
+.img-es-5{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url('../img/about.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 
@@ -211,6 +224,14 @@ section{
     .box{
         flex-basis: 49%;
     }
+    .cont-es-5{
+        display: flex;
+        justify-content: space-between;
+    }
+    .es-5-left,
+    .es-5-right{
+        flex-basis: 40%;
+    }
 
 }
 
@@ -234,7 +255,7 @@ section{
      width: 100%;
     }
     nav{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     }
     .disp-blo{
@@ -270,9 +291,11 @@ section{
     .container-es-4{
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
     }
     .box{
         flex-basis: 32%;
+    }
+    .cont-es-5{
+        width: 70%;
     }
  }
