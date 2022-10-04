@@ -36,6 +36,9 @@
 .white{
     color: white;
 }
+.color{
+    color: rgb(132, 132, 253);
+}
 
 /* utili */
 
@@ -102,6 +105,7 @@ section{
     margin: 0 auto;
     background-color: rgb(132, 132, 253);
     border-radius: 30px;
+    padding: 1rem;
 }
 
 .cont-img{
@@ -144,6 +148,32 @@ section{
     align-items: center;
 }
 
+.es-4{
+    background-color: rgb(132, 132, 253);
+}
+.container-es-4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.box{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 1.8rem;
+    border-radius: 2rem;
+    padding-left: 2rem;
+}
+.more{
+    border: none;
+    padding: 4px 24px;
+    color: white;
+    background-color: rgb(132, 132, 253);
+
+}
+
 
 @media screen and (min-width: 480px){
    .container1-main{
@@ -158,22 +188,39 @@ section{
    }
    .width-50{
     width: 50%;
-}
+    }
    header{
     width: 100%;
-}
-.freccia{
+    }
+    .freccia{
     width: 7%;
-}
+    }
+    .card-container3-main{
+        flex-direction: row;
+    }
+    .cont-img,
+    .cont-img2,
+    .cont-img3{
+        height: 158px;
+        width: 100%;
+    }
+    .container-es-4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box{
+        flex-basis: 49%;
+    }
+
 }
 
 @media screen and (min-width: 769px){
-    .container1-main{
+    /* .container1-main{
      display: flex;
      width: 85%;
     margin: 0 auto;
-    margin-bottom: 20px;
-    }
+    margin-bottom: 30px;
+    } */
     .section{
      flex-basis: 30%;
     }
@@ -196,19 +243,16 @@ section{
     .width-50{
         width: 50%;
     }
-    .img-1{
-        position: relative;
-        left: 100px;
-    }
     .container2-main{
         display: flex;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
+        margin-top: 25px;
     }
     .card-container2-main{
-        width: 80%;
+        height: 85%;
         position: relative;
-        /* top: 35px; */
+        top: 5rem;
         margin-left: 20px;
     }
     .freccia {
@@ -217,5 +261,18 @@ section{
     }
     .flex-3{
         display: flex;
+    }
+    .cont-img,
+    .cont-img2,
+    .cont-img3{
+        height: 22rem;
+    }
+    .container-es-4{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box{
+        flex-basis: 32%;
     }
  }
